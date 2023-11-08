@@ -1,9 +1,18 @@
-# Tema Greedy UniBuc
+# Tema Programare Dinamica UniBuc
 
-### Problema 10 - Fractii egiptene
-- Sa se aplice algoritmul Greedy pentru a transforma o fractie obisnuit intr-o suma de fractii cu numaratorul 1. Se va aplica succesiv formula urmatoare:
-    ## $`\frac{x}{y} = \frac{1}{[\frac{y}{x}]} + \frac{(-y) * mod(x)}{y * [\frac{y}{x}]}`$
-- Date de intrare : o fractie initiala (cu numarator mai mare de 1).
-- Date de iesire : suma de fractii cu numarator 1.
-- Exemplu :
-    ## $`\frac{7}{15} = \frac{1}{3} + \frac{2}{15} = \frac{1}{3} + \frac{1}{8} + \frac{1}{120}`$
+### Problema 8 
+- Se citeste din fisierul `date.in` numarul natural `n`. Pornind de la valoarea 1, asupra valorii curente x se pot aplica urmatoarele trei operatii: inmultire cu 2, inmultire cu 3 sau adunare cu 1.
+- De exemplu, daca x = 1 atunci se poate obtine 2 (prin inmultirea cu 2 sau prin adunarea cu 1) sau 3 (prin inmultirea cu 3).
+- Calculati numarul minim de operatii necesare pentru a obtine numarul n incepand de la numarul 1. Afisati si secventa de valori intermediare obtinute petru a ajunge la n.
+- Exemplu:
+     - Input:
+          - X = 5
+     - Output:
+          - 3
+          - 1 3 4 5
+## Explicatie:
+### Initial, X = 1
+### Operatia 1: 1*3 => X = 3
+### Operatia 2: 1+3 => X = 4
+### Operatia 3: 1+4 => X = 5
+  
