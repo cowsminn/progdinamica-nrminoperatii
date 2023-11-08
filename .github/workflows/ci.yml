@@ -9,7 +9,7 @@ on:
 
 env:
   EXECUTABLE_NAME: "main"
-  INPUT_FILENAME: "tastatura.txt"
+  INPUT_FILENAME: "date.in"
   BUILD_DIR: "build"
   EXT_DIR: "ext"
 
