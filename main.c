@@ -52,10 +52,13 @@ int main() {
     if(f == NULL)
     {
         printf("eroare fisier");
+    }
+    else
+    {
+        fscanf(f, "%d", &x);
+        func(x);
         fclose(f);
     }
-    fscanf(f, "%d", &x);
-    func(x);
-    fclose(f);
+    
     return 0;
 }
